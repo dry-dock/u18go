@@ -5,7 +5,7 @@
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source $HOME/.gvm/scripts/gvm
 export CGO_ENABLED=0
 
-declare -a versions=( '1.11.10' '1.12.5' )
+declare -a versions=( '1.11.11' '1.12.6' )
 for version in "${versions[@]}"
   do
     echo "================= Install Go $version ==================="
